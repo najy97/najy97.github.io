@@ -1,6 +1,6 @@
 ---
 
-layout: single
+layout: default
 
 title:  "VRP visualizer"
 
