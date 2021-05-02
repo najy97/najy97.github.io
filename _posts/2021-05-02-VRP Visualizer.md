@@ -47,7 +47,7 @@ title:  "VRP visualizer"
 
 - function
 
-  - **init**(screen, start, target, rad)
+  - ```__init__(screen, start, target, rad)```
 
     ```python
     def __init__(self,screen,start,target,rad=25):
@@ -67,7 +67,7 @@ title:  "VRP visualizer"
     - 입력받은 값대로 현재 위치, 목표 위치를 저장하고 속도를 연산하여 저장합니다.
     - 현재 위치를 토대로 차량 도형을 생성하고 입력받은 screen상에 도형을 출력합니다.
 
-  - move()
+  - ```move()```
 
     ```python
     def move(self):
@@ -83,7 +83,7 @@ title:  "VRP visualizer"
     - 매 프레임마다 계산한 속도만큼 이동하여 차량의 움직임을 구현합니다.
     - 원은 박스의 좌상단을 기준으로 생성되므로 $(x-r,y-r)$에 원을 생성합니다.
 
-  - isArrived()
+  - ```isArrived()```
 
     ```python
     def isArrived(self):
