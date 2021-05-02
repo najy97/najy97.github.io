@@ -4,6 +4,8 @@ layout:single
 
 title:  "VRP visualizer"
 
+classes: wide
+
 ---
 
 ## Summary
