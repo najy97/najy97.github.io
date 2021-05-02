@@ -10,11 +10,7 @@ classes: wide
 
 ## Summary
 
-------
-
 ## VRP Visualizer 개발 목적
-
-------
 
 - VRP 알고리즘의 결과물인 배달 경로를 1. solver와 분리된 환경에서 2. 실시간으로 시각화하기 위해 VRP Visualizer를 새로 개발하였습니다.
 - 기존 VRP simualtor의 단점
@@ -27,22 +23,14 @@ classes: wide
 
 ## Class Diagram
 
-------
-
 ![image](https://user-images.githubusercontent.com/57242033/116805277-33d8fa00-ab60-11eb-971a-c1cf03f3d612.png)
 
 ## Flow Chart
 
-------
-
 ## Class
 
-------
 
 ### Vehicle
-
-------
-
 - 역할
 
   - 배달 차량의 클래스인 Vehicle은 현재 위치와 목표 위치를 바탕으로 차량의 움직임을 구현합니다.
@@ -153,13 +141,7 @@ class Vehicle():
 
 ### Customer
 
-------
-
 ### Store
 
-------
 
 ### Manager
-
-------
-
