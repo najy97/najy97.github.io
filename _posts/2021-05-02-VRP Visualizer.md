@@ -1,3 +1,11 @@
+---
+
+layout: single
+
+title:  "VRP visualizer"
+
+---
+
 ## Summary
 
 ------
