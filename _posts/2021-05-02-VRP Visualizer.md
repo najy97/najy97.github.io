@@ -98,13 +98,13 @@
 
      - 현재 x, y 좌표값
      - numpy array (1x2)
-
   2. node_target
-
+  
      - 목적지 x, y 좌표값
      - numpy array (1x2)
+  3. speed
 
-  3. ## speed
+- Vehicle전체 소스 코드
 
 ```python
 import pygame
