@@ -2,7 +2,9 @@
 
 layout: single
 
-title:  "VRP visualizer"
+title: "VRP visualizer"
+
+classes: wide
 
 ---
 
